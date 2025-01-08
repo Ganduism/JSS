@@ -1,0 +1,30 @@
+#include <stdio.h>>
+int main()
+{
+
+float P,C,M,E,B,sum,percentage;
+
+printf("Enter Marks in Physics: ");
+scanf("%f",&P);
+
+printf("Enter Marks in Chemistry: ");
+scanf("%f",&C);
+
+printf("Enter Marks in Maths: ");
+scanf("%f",&M);
+
+printf("Enter Marks in English: ");
+scanf("%f",&E);
+
+printf("Enter Biology in: ");
+scanf("%f",&B);
+
+sum=P+C+M+B+E;
+
+percentage=sum/5;
+
+printf("\n The total marks obtained: %.2f",sum);
+printf("\n The percentage scored: %.2f",percentage);
+
+return 0;
+}
