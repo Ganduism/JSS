@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+
+float a,b,t;
+
+printf("Enter the value of the first variable: ");
+scanf("%f",&a);
+
+printf("Enter the value of the second variable: ");
+scanf("%f",&b);
+
+
+t=a;
+a=b;
+b=t;
+
+printf("\n the value of the first variable: %.2f",a);
+printf("\n the value of the second variable: %.2f",b);
+
+return 0;
+}
